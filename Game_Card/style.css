@@ -1,0 +1,50 @@
+.games {
+    display: flex;
+    justify-content: center;
+}
+.games .games-div {
+    background-color: rgb(8, 89, 182);
+    border-radius: 20px;
+    display: grid;
+    grid-gap: 1px;
+    float: left;
+}
+.games img {
+    margin: 10px;
+    width: 55px;
+    height: 75px;
+    cursor: pointer;
+}
+
+/* ///////// btn */
+
+#btn {
+    text-align: center;
+    margin: 15px 0;
+}
+
+#btn-main {
+    background-color: green;
+}
+
+.end {
+    position: absolute;
+    top: 140px;
+    left: 40%;
+    color: white;
+    background-color: green;
+    height: 50px; 
+    padding: 30px 30px 60px;
+    border-radius: 20px;
+    display: none;
+}
+.start {
+    margin: 10px auto 0;
+    display: none!important;
+}
+#games-end{
+    display: block;
+}
+#games-start{
+    display: block!important;
+}

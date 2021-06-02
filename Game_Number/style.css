@@ -1,0 +1,34 @@
+.btn-main {
+    background: green!important;
+}
+.numberInput {
+    /* display: none; */
+    width: 200px!important;
+    margin-left: 25px;
+}
+#btn-time {
+    background-color: green!important;
+    color: white;
+}
+#btn-dificulty {
+    background-color: green!important;
+}
+.add {
+    background-color: green;
+}
+.start-again{
+     display: none!important;
+}
+.input-group{
+    width: 400px!important;
+    opacity: 0;
+    transition-duration: 1s;
+    /* display: none!important; */
+}
+h1{
+    transition: opacity 0.1s ease;
+  }
+  
+.fade{
+    opacity: 0.5;
+  }
